@@ -18,7 +18,7 @@ gulp.task("default", function () {
     .pipe(jshint.reporter('fail'));
 });
 
-////////////
+/////////////
 function log(msg) {
     if (typeof (msg) === 'object') {
         for (var item in msg) {
