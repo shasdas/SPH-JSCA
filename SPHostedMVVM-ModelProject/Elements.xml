@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RootModule">
+    <File Path="package.json" Url="package.json" ReplaceContent="TRUE" />
+    <File Path="Gulpfile.js" Url="Gulpfile.js" ReplaceContent="TRUE" />
+    <File Path=".jshintrc" Url=".jshintrc" ReplaceContent="TRUE" />
+    <File Path=".jscsrc" Url=".jscsrc" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
