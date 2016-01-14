@@ -13,6 +13,7 @@ gulp.task("default", function () {
         './Scripts/ViewModels/**/*.js/'
     ])
     .pipe(jscs())
+    .pipe(jscs.reporter('fail'))
     .pipe(jshint('.jshintrc'))
     .pipe(jshint.reporter('jshint-stylish', { verbose: true }))
     .pipe(jshint.reporter('fail'));
